@@ -71,7 +71,7 @@ usage: signatureanalyzer [-h] [-t {maf,spectra,matrix}] [-n NRUNS] [-o OUTDIR]
 #### Example:
 
 ```
-signatureanalyzer input.maf -n 10 --cosmic cosmic2 --objective poisson
+signatureanalyzer input.maf -n 10 --cosmic cosmic2 --objective poison --hg_build ./ref/hg19.bit
 ```
 
 
